@@ -16,10 +16,16 @@ class Pairqr < Formula
     end
   end
 
-  depends_on cask: "android-platform-tools"
-
   def install
     bin.install "pairqr"
+  end
+
+  def caveats
+    <<~EOS
+      pairqr requires ADB (Android Debug Bridge) to be installed and in your PATH.
+      Install it with:
+        brew install --cask android-platform-tools
+    EOS
   end
 
   test do
