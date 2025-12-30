@@ -1,18 +1,18 @@
 class Pairqr < Formula
   desc "Pair Android devices for wireless ADB debugging by scanning a QR code"
   homepage "https://github.com/richard-fairthorne/pairqr"
-  version "0.1.11"
+  version "0.1.12"
   license "GPL-3.0"
 
   on_macos do
-    url "https://github.com/richard-fairthorne/pairqr/releases/download/v0.1.11/pairqr-macos-universal.tar.gz"
-    sha256 "2e26a9199f2db1ebaf4135327804b6fbcd9c25587a51132d22a1482f1dd1acca"
+    url "https://github.com/richard-fairthorne/pairqr/releases/download/v0.1.12/pairqr-macos-universal.tar.gz"
+    sha256 "f809c82d0d023c20796c867106abb976b80da88fc7c81a27d2dd4d59808b56c2"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/richard-fairthorne/pairqr/releases/download/v0.1.11/pairqr-linux-x86_64.tar.gz"
-      sha256 "e477448358f396d66c05cd5c611dcb99b55ebac87b6b5fbc425e2fed09ab5909"
+      url "https://github.com/richard-fairthorne/pairqr/releases/download/v0.1.12/pairqr-linux-x86_64.tar.gz"
+      sha256 "1abca8261a2239d09003315c38f3eaf2a52801dd9f5cf1984ef808433c3f1540"
     end
   end
 
